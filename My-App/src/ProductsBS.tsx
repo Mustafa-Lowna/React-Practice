@@ -2,7 +2,7 @@
 function ProductsBS() {
   return (
     <div className="p-3">
-      <h2 className="mb-4 text-success">Course List</h2>
+      <h2 className="mb-4 text-success">Products List</h2>
       <ul className="list-group">
         <li className="list-group-item list-group-item-secondary">
           iPhone 17 Pro Max

@@ -1,12 +1,12 @@
-function Products() {
+function ProductListA() {
   let products = [
-    "iPhone 15",
-    "Samsung Galaxy S21",
-    "Google Pixel 6",
-    "OnePlus 9",
-    "Xiaomi Mi 11",
+    "Smartphone",
+    "Laptop",
+    "Wireless Headphones",
+    "Smartwatch",
+    "Bluetooth Speaker",
+    "Gaming Console",
   ];
-
   return (
     <div className="p-4">
       <h2 className="text-success mb-3">Available Products</h2>
@@ -19,4 +19,4 @@ function Products() {
     </div>
   );
 }
-export default Products;
+export default ProductListA;

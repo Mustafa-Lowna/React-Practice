@@ -1,13 +1,14 @@
-import ProductsInfo from "./ProductInfo";
-import ProductsObjects from "./ProductsObjects";
+import ProductListA from "./ProductListA";
+import ProductListB from "./ProductListB";
+
 function App() {
   return (
     <div>
-      <h1 className="m-3 mt-5 text-center text-white bg-dark">
+      <h2 className="m-3 mt-5 text-center text-white bg-dark p-2 rounded">
         My Products App
-      </h1>
-      <ProductsObjects></ProductsObjects>
-      <ProductsInfo></ProductsInfo>
+      </h2>
+      <ProductListA></ProductListA>
+      <ProductListB></ProductListB>
     </div>
   );
 }
